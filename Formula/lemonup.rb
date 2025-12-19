@@ -1,5 +1,5 @@
 class Lemonup < Formula
-  desc "Backup tool for TukUI and ElvUI"
+  desc "Cross Platform TUI World of Warcraft Addon Manager "
   homepage "https://github.com/archcorsair/lemonup"
   version "0.0.2"
   license "MIT"
