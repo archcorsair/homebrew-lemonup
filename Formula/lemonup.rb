@@ -1,4 +1,4 @@
-class LemonUp < Formula
+class Lemonup < Formula
   desc "Backup tool for TukUI and ElvUI"
   homepage "https://github.com/archcorsair/lemonup"
   version "0.0.2"
