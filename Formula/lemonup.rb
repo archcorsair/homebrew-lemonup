@@ -5,14 +5,14 @@ class Lemonup < Formula
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/archcorsair/lemonup/releases/download/v0.0.8/lemonup-macos-arm64"
-    sha256 "f21ac16b762ef4a4fae2254d9985af5377dd873cf851a40df23072ed15c2f558"
+    url "https://github.com/archcorsair/lemonup/releases/download/v0.0.10/lemonup-macos-arm64"
+    sha256 "ce2410b34fdb10f2d1525c9fe8d2dc8eac5b973b950d630ff72d25f2bdeea238"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/archcorsair/lemonup/releases/download/v0.0.8/lemonup-macos-x64"
-    sha256 "a8d8aa9f49f9cefe80a135c0d8b83cca55dcb9da1c17582ed192f67ba80c08af"
+    url "https://github.com/archcorsair/lemonup/releases/download/v0.0.10/lemonup-macos-x64"
+    sha256 "2415cf0884dae6f58ba1a3b0c36269c5b16dc4ac874d72597987651e13d3a0de"
   elsif OS.linux?
-    url "https://github.com/archcorsair/lemonup/releases/download/v0.0.8/lemonup-linux-x64"
-    sha256 "c59ac0e7bc71446b4fd3c6cc32a4685014bd1e94c6ebf3b02d51fc4fc777033d"
+    url "https://github.com/archcorsair/lemonup/releases/download/v0.0.10/lemonup-linux-x64"
+    sha256 "fa01cb059809d28b82ccba008860340f824804c29fb28227bb9ed179047c7bb3"
   end
 
   def install
