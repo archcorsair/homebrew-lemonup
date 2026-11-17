@@ -1,18 +1,18 @@
 class Lemonup < Formula
   desc "Cross-platform TUI World of Warcraft addon manager"
   homepage "https://github.com/archcorsair/lemonup"
-  version "2.1.0"
+  version "2.2.0"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/archcorsair/lemonup/releases/download/v#{version}/lemonup-macos-arm64"
-    sha256 "f406ddcc7fb17cfe324cdd16aac6bf22e172fb0f3b38db89c618027c4a3a77d4"
+    sha256 "60b8c6c347eabb60308a645f14ffe68ab94fc007f435b14b822948e7399509ef"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/archcorsair/lemonup/releases/download/v#{version}/lemonup-macos-x64"
-    sha256 "86d7593eab560b387efdf7f7f3be918d3ed8c7422f1701ea99661dce56bb9662"
+    sha256 "20421222c79aa099d8ac7dc785a9aac3c18b2a215cd877bbc218d9dbb1a553ec"
   elsif OS.linux?
     url "https://github.com/archcorsair/lemonup/releases/download/v#{version}/lemonup-linux-x64"
-    sha256 "e63e9a75518de01fb8f5d687c1c200226eed085730171de889e915de6eb2016a"
+    sha256 "613b0651e8646b4b93b779e9dfe23e07584658e47cdbdb672bcc2c07433147a3"
   end
 
   def install
